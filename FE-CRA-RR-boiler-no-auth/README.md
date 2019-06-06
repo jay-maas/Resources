@@ -1,3 +1,23 @@
+## Jay's CRARR Boiler no-auth
+
+This boilerplate was created to have a fully functioning state management system using redux, as well as routing out the box. Please review all files before begginning. This is the v1.0 of the readme. 
+
+Required knowledge to operate this boilerplate:
+
+React
+Redux
+React-Router
+Inline-stylings (my prefered method for quick prototyping, this should be converted into Styled Components)
+
+File structure is set up for the ability to import files of a directory folders 'index.js'.
+
+This is set up to connect with a server. Point the get request to the appropriate endpoint in the ('./src/actions/index.js') to test the connection. There is a built in component that will display messages and errors from the redux store. 
+
+Have Fun!
+
+
+## CRA information
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
