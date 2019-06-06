@@ -21,4 +21,6 @@ Simply change some of the semantics to personalize to your application.
 -npx knex migrate:make create_example_table
 -npx knex migrate:latest
 -npx knex seed:make create_example_seed
+-inside of seed, make sure to change return knex('example').del() to return knex('example').truncate()
 -npx knex seed:run
+
